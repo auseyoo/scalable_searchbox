@@ -1,0 +1,11 @@
+$('.input_search')
+.focus(function(){
+  $(this).animate({
+    "width":"200px"
+  });
+})
+.blur(function(){
+  $(this).animate({
+    "width":"110px"
+  });
+});
